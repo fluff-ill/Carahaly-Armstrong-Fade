@@ -14,7 +14,7 @@
 */
 
 int led = 9;           // the PWM pin the LED is attached to
-int brightness = 0;    // how bright the LED is
+int brightness = 2;    // how bright the LED is
 int fadeAmount = 5;    // how many points to fade the LED by
 
 // the setup routine runs once when you press reset:
