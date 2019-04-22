@@ -14,16 +14,8 @@
 */
 
 int led = 9;           // the PWM pin the LED is attached to
-<<<<<<< HEAD
-int brightness = 0;    // how bright the LED is
-int fadeAmount = 6;    // how many points to fade the LED by
-||||||| merged common ancestors
-int brightness = 0;    // how bright the LED is
-int fadeAmount = 5;    // how many points to fade the LED by
-=======
 int brightness = 2;    // how bright the LED is
-int fadeAmount = 5;    // how many points to fade the LED by
->>>>>>> ccf191d818e6bf5befa8754943b18b0751b99bcc
+int fadeAmount = 6;    // how many points to fade the LED by
 
 // the setup routine runs once when you press reset:
 void setup() {
